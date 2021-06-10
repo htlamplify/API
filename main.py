@@ -6,7 +6,7 @@ from sepve import SEPVE
 
 addr = 0x88
 
-app = FastAPI(title='SEPVE-WebControl', version='0.0.1 RC1')
+app = FastAPI(title='SEPVE-WebControl', version='1.0.0')
 
 app.add_middleware(
     CORSMiddleware,

@@ -10,7 +10,7 @@ class SEPVE:
     MID_dB: int = 2
     TREBLE_dB: int = 2
     SPEAKER: str = "MUTE"
-    i2c_addr = 0x88
+    i2c_addr = 0x44
     bus = None
 
     def __init__(self, addr):

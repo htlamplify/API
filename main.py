@@ -4,7 +4,7 @@ from starlette.middleware.cors import CORSMiddleware
 
 from sepve import SEPVE
 
-addr = 0x88
+addr = 0x44
 
 app = FastAPI(title='SEPVE-WebControl', version='1.0.0')
 
@@ -60,4 +60,4 @@ def setSpeakerAttL(att):
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="10.0.0.40", port=9000)
+    uvicorn.run(app, host="10.0.0.20", port=9000)
